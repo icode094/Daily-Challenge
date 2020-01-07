@@ -1,0 +1,11 @@
+.title {
+  color: #ec2d37;
+}
+body {
+  background-color:rgb(216, 213, 211)
+}
+.answer {
+  width: 60px;
+  height: 30px;
+  border-radius: 15px;
+}
