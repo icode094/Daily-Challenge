@@ -1,11 +1,32 @@
-.title {
-  color: #ec2d37;
+.div1 {
+  width: 100px;
+  height: 100px;
+  background: #0080ff;
 }
-body {
-  background-color:rgb(216, 213, 211)
+
+.div2 {
+  position: relative;
+  top: -50px;
+  right: -50px;
+  width: 100px;
+  height: 100px;
+  background: #e50914;
 }
-.answer {
-  width: 60px;
-  height: 30px;
-  border-radius: 15px;
+
+.div3 {
+  position: relative;
+  top: -100px;
+  right: -100px;
+  width: 100px;
+  height: 100px;
+  background: #ffa00a;
+}
+
+.div4 {
+  position: relative;
+  top: -150px;
+  right: -150px;
+  width: 100px;
+  height: 100px;
+  background: #e50914;
 }
