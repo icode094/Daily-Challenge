@@ -1,16 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title></title>
+    <link rel="stylesheet" href="../css/style.css">
   </head>
   <body>
-    <div class="div1"></div>
-    <div class="div2"></div>
-    <div class="div3"></div>
-    <div class="div4"></div>
-    <script src="script.js"></script>
+    <h2>Survey Form</h2>
+
+    <div class="sub-container">
+      <p>Let us know how we can improve FreeCodeCamp</p>
+      <form class="form" action="index.html" method="post">
+
+        <div class="flex">
+          <div class="inline-left">
+            <label for=""> * Name</label>
+          </div>
+          <div class="inline-right">
+            <input type="text" name="Enter your name" placeholder="Enter your name">
+          </div>
+        </div>
+
+        <div class="flex">
+          <div class="inline-left">
+            <label for=""> * Email</label>
+          </div>
+          <div class="inline-right">
+            <input type="text" name="Enter your Email" placeholder="Enter your Email">
+          </div>
+        </div>
+
+        <div class="flex">
+          <div class="inline-left">
+            <label for=""> * Age</label>
+          </div>
+          <div class="inline-right">
+            <input type="number" name="age" placeholder="Age" min="1" max="100">
+          </div>
+        </div>
+
+        <div class="flex">
+          <div class="inline-left">
+            <label for=""> Which option best describes your current role?</label>
+          </div>
+          <div class="inline-right">
+            <select class="" name="">
+            <option disabled value>Select an option</option>
+            <option value="">Select an option</option>
+            <option value="">Software Engineer</option>
+            <option value="">UI/UX</option>
+            <option value="">Data Science</option>
+          </select>
+        </div>
+        </div>
+
+        <div class="flex">
+          <div class="inline-left">
+            <label for=""> * How likely is that you would recommend FreeCodeCamp to a friend?</label>
+          </div>
+          <div class="inline-right">
+            <div> <input type="radio" name="Definitely" value="Definitely">Definitely </div>
+            <div><input type="radio" name="Maybe" value="Maybe">Maybe </div>
+            <div><input type="radio" name="Not sure" value="Not sure">Not sure </div>
+          </div>
+        </div>
+
+        <div class="flex">
+          <div class="inline-left">
+            <label for=""> What do you like most in FreeCodeCamp</label>
+          </div>
+          <div class="inline-right">
+            <select class="" name="">
+            <option disabled value>Select an option</option>
+            <option value="">Select an option</option>
+            <option value="">Online Tutor</option>
+            <option value="">Youtube Training</option>
+            <option value="">Customer Service</option>
+          </select>
+        </div>
+        </div>
+
+        <div class="flex">
+          <div class="inline-left">
+            <label for=""> Things that should be improved in the future (Check all that apply): </label>
+          </div>
+          <div class="inline-right">
+            <div> <input type="radio" name="Front-end Projects" value="Front-end Projects">Front-end Projects </div>
+            <div><input type="radio" name="Back-end Projects" value="Back-end Projects">Back-end Projects </div>
+            <div><input type="radio" name="Not sure" value="Data Visualization">Data Visualization </div>
+          </div>
+        </div>
+
+        <div class="inline-right">
+          <button type="button" name="button"> Submit</button>
+        </div>
+
+      </form>
+
+    </div>
   </body>
 </html>
